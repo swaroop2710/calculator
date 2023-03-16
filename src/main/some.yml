@@ -4,5 +4,5 @@
   tasks:
     - name: Pull docker image
       docker_image:
-        name: swaroop27/calculator
+        name: swaroop27/speminiproject
         source: pull
