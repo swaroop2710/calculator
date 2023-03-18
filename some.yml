@@ -10,7 +10,7 @@
 
     - name: start docker container
       docker_container:
-        name: caluclator_mini
+        name: swaroop27/speminiproject
         image: swaroop27/speminiproject
         state: started
         try: yes
