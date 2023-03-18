@@ -6,3 +6,11 @@
       docker_image:
         name: swaroop27/speminiproject
         source: pull
+
+    - name: start docker container
+      docker_container:
+        name: caluclator_mini
+        image: swaroop27/speminiproject
+        state: started
+        try: yes
+        interactive: yes
