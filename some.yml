@@ -13,5 +13,5 @@
         name: swaroop27/speminiproject
         image: swaroop27/speminiproject
         state: started
-        try: yes
+        tty: yes
         interactive: yes
