@@ -7,11 +7,3 @@
       docker_image:
         name: swaroop27/speminiproject
         source: pull
-
-    - name: start docker container
-      docker_container:
-        name: swaroop27/speminiproject
-        image: swaroop27/speminiproject
-        state: started
-        tty: yes
-        interactive: yes

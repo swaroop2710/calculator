@@ -1,2 +1,2 @@
 [container]
-172.16.139.68 ansible_user=user1
+172.16.139.68 ansible_connection=ssh ansible_user=user1
