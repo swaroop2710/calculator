@@ -1,12 +1,11 @@
 package org.example;
 
 import java.util.*;
-
-
-
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Calculator {
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
     public double factorial(double num)
     {
         double ans=1;
@@ -19,7 +18,7 @@ public class Calculator {
 
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
-        double number1, number2;
+        double number1;
         do {
             System.out.println("Calculator-DevOps, Choose to perform operation");
             System.out.print("Press 1 to find factorial\nPress 2 to find Square root\nPress 3 to find power\nPress 4 to find natural logarithm\n" +
@@ -38,7 +37,12 @@ public class Calculator {
                     System.out.println("Factorial of "+number1+" is : " + calculator.factorial(number1));
                     System.out.println("\n");
 
+                case 5:
+                    System.out.println("exitting...");
+                    return;
+
             }
+
         } while (true);
     }
 }
