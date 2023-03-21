@@ -70,6 +70,7 @@ public class Calculator {
                     number1 = scanner.nextDouble();
                     System.out.println("Factorial of "+number1+" is : " + calculator.factorial(number1));
                     System.out.println("\n");
+                    break;
 
                 case 2:
                     // Square root
@@ -77,7 +78,7 @@ public class Calculator {
                     number1 = scanner.nextDouble();
                     System.out.println("Square root of "+number1+" is : " + calculator.squareRoot(number1));
                     System.out.println("\n");
-
+                    break;
                 case 3:
                     // Power
                     System.out.print("Enter the first number : ");
@@ -86,6 +87,7 @@ public class Calculator {
                     number2 = scanner.nextDouble();
                     System.out.println(number1+ " raised to power "+number2+" is : " + calculator.power(number1, number2));
                     System.out.println("\n");
+                    break;
 
                 case 4:
                     // Natural log
@@ -93,6 +95,7 @@ public class Calculator {
                     number1 = scanner.nextDouble();
                     System.out.println("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
                     System.out.println("\n");
+                    break;
 
                 case 5:
                     System.out.println("exitting...");
