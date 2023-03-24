@@ -7,6 +7,7 @@
     - name: Pull docker image
       docker_image:
         name: swaroop27/speminiproject
+        tag: latest
         source: pull
 
     - name: Create & Start Calculator Docker Container
